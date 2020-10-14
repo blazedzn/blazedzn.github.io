@@ -182,8 +182,7 @@ a span:nth-child(4)
 .box:before,
 .box:after
 {	
-	/*background: linear-gradient(235deg, #0471de,#060c21,#00bcd4);*/
-	background: linear-gradient(235deg, #506666,#369191,#00bcd4);
+	background: linear-gradient(235deg, #007887,#369191,#00eeff); /*верхний правый, центр, нижний левый*/
 }
 .content
 {
