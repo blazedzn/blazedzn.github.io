@@ -45,12 +45,7 @@ a:nth-child(3)
 
 a:nth-child(4)
 {
-	filter: hue-rotate(5deg);
-}
-
-a:nth-child(5)
-{
-	filter: hue-rotate(-5deg);
+	filter: hue-rotate(0deg);
 }
 
 a:hover 
