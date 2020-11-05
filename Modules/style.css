@@ -35,12 +35,12 @@ a
 
 a:nth-child(2)
 {
-	filter: hue-rotate(55deg);
+	filter: hue-rotate(0deg);
 }
 
 a:nth-child(3)
 {
-	filter: hue-rotate(30deg);
+	filter: hue-rotate(55deg);
 }
 
 a:nth-child(4)
