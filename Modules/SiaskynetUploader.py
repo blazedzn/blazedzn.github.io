@@ -3,12 +3,15 @@ import siaskynet as skynet
 import os
 
 @loader.tds
-class IPLookupMod(loader.Module):
+class UploaderMod(loader.Module):
     """siasky.net uploader by @blazeftg"""
     strings = {"name": "FileUploader"}
 
     async def uploadcmd(self, message):
-        """ .upload <реплай на файл>"""
+        """ .upload <реплай на файл> - загружает файл на сервер
+        или
+        .upload <реплай на текст> - загружает текст из реплая на сервер
+        """
         await message.edit(f"<b>Загружаю...</b>")
         client = skynet.SkynetClient()
         reply = await message.get_reply_message()
