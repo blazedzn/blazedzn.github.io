@@ -33,19 +33,21 @@ a
 	-webkit-box-reflect: below 0.1px linear-gradient(transparent, #0001);
 }
 
+a:nth-child(1)
+{
+	filter: hue-rotate(-5deg); /* currency converter */
+}
 a:nth-child(2)
 {
-	filter: hue-rotate(0deg);
+	filter: hue-rotate(15deg); /* siasky net */
 }
-
 a:nth-child(3)
 {
-	filter: hue-rotate(55deg);
+	filter: hue-rotate(35deg); /* email generator */
 }
-
 a:nth-child(4)
 {
-	filter: hue-rotate(0deg);
+	filter: hue-rotate(55deg); /* на главную */
 }
 
 a:hover 
