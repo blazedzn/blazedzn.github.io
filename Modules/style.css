@@ -47,7 +47,11 @@ a:nth-child(3)
 }
 a:nth-child(4)
 {
-	filter: hue-rotate(55deg); /* на главную */
+	filter: hue-rotate(45deg); /* ip lookup */
+}
+a:nth-child(5)
+{
+	filter: hue-rotate(60deg); /* на главную */
 }
 
 a:hover 
