@@ -51,7 +51,11 @@ a:nth-child(4)
 }
 a:nth-child(5)
 {
-	filter: hue-rotate(60deg); /* на главную */
+	filter: hue-rotate(55deg); /* anime searcher */
+}
+a:nth-child(6)
+{
+	filter: hue-rotate(70deg); /* на главную */
 }
 
 a:hover 
