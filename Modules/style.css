@@ -59,7 +59,7 @@ a:nth-child(6)
 }
 a:nth-child(7)
 {
-	filter: hue-rotate(-17deg); /* на главную */
+	filter: hue-rotate(-20deg); /* на главную */
 }
 
 a:hover 
