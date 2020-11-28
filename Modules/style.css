@@ -35,27 +35,31 @@ a
 
 a:nth-child(1)
 {
-	filter: hue-rotate(-5deg); /* currency converter */
+	filter: hue-rotate(50deg); /* currency converter */
 }
 a:nth-child(2)
 {
-	filter: hue-rotate(15deg); /* siasky net */
+	filter: hue-rotate(35deg); /* siasky net */
 }
 a:nth-child(3)
 {
-	filter: hue-rotate(35deg); /* email generator */
+	filter: hue-rotate(20deg); /* email generator */
 }
 a:nth-child(4)
 {
-	filter: hue-rotate(45deg); /* ip lookup */
+	filter: hue-rotate(5deg); /* ip lookup */
 }
 a:nth-child(5)
 {
-	filter: hue-rotate(55deg); /* anime searcher */
+	filter: hue-rotate(-10deg); /* anime searcher */
 }
 a:nth-child(6)
 {
-	filter: hue-rotate(70deg); /* на главную */
+	filter: hue-rotate(-13deg); /* temp mail client */
+}
+a:nth-child(7)
+{
+	filter: hue-rotate(-17deg); /* на главную */
 }
 
 a:hover 
