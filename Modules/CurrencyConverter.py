@@ -6,7 +6,9 @@ import asyncio
 def register(cb):
     cb(CurrencyMod())
 class CurrencyMod(loader.Module):
-    """Конвертер валют от @blazeftg"""
+    """Конвертер валют от @blazeftg
+    Работает с помощью бота @exchange_rates_vsk_bot
+    """
     strings = {'name': 'CurrencyConverter'}
     async def currcmd(self, message):
         """.curr <кол-во> <валюта>
