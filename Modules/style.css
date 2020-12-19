@@ -63,7 +63,11 @@ a:nth-child(7)
 }
 a:nth-child(8)
 {
-	filter: hue-rotate(-25deg); /* на главную */
+	filter: hue-rotate(-25deg); /* game finder */
+}
+a:nth-child(9)
+{
+	filter: hue-rotate(-35deg); /* game finder */
 }
 
 a:hover 
